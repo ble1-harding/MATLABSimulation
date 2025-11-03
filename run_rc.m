@@ -1,6 +1,6 @@
 rc = load('rc_veetrack.txt');
-mass = 0.057
-F_f = 0.1
+mass = 0.039
+F_f = 0.15
 
 [distance, velocity] = analyze_rc(mass, F_f, rc);
 
