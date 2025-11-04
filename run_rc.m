@@ -1,6 +1,6 @@
 rc = load('Froggy.txt');
-mass = 0.039
-F_f = 0.15
+mass = 0.0388
+F_f = 0.112
 
 [distance, velocity] = analyze_rc(mass, F_f, rc);
 
