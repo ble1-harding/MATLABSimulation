@@ -1,4 +1,4 @@
-rc = load('rc_veetrack.txt');
+rc = load('Froggy.txt');
 mass = 0.039
 F_f = 0.15
 
