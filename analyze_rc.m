@@ -13,7 +13,8 @@ function [distance, velocity] = analyze_rc(mass, F_f, rc)
     axis equal;
     axis tight;
     if (abs(sum(distance) - d_track) > epsilon)
-        s = sprintf('Roller Coaster - Incorrect Length. Length of %f meters.', sum(distance));
+        % s = sprintf('Roller Coaster - Incorrect Length. Length of %f meters.', sum(distance));
+        s = sprintf('Roller Coaster', sum(distance));
         title(s);
     elseif (abs(velocity(length(velocity))) > epsilon)
         s = sprintf('Roller Coaster - Cart is going too fast. Length: %f', sum(distance));
